@@ -1,0 +1,66 @@
+body {
+	background-color: #b8cfff;
+	font-family: Georgia, 'Times New Roman', Times, serif;		
+}
+
+.back {	
+	background-color: #0d3760;
+	border-bottom: 10px groove #0d3760;
+	height: 300px;
+	opacity: 0.05;
+	position: relative;
+	z-index: 0;	
+}
+
+.anketa {
+	width: 800px;
+	background-color: #ffffff;
+	padding: 50px;
+	margin: auto;
+	margin-top: -200px;
+	margin-bottom: 100px;
+	position: relative;
+	border-radius: 6em 1em;
+	box-shadow: 0 0 15px 5px rgba(70,70,140,0.2);
+	z-index: 1;
+}
+
+.anketa__headers__title {
+	color: #0c345c;
+	font-weight: normal;
+	font-size: 250%;
+}
+
+.anketa__headers__course {
+	color: #0d3760;
+	font-weight: normal;
+	font-size: 170%;
+}
+
+.anketa__questions__item {
+	text-align: justify;
+	padding: 5px;
+	line-height: 1.5;
+}
+
+.anketa__questions__item__link:link {
+	color: #333f7f;
+}
+
+.anketa__questions__item__link:hover{
+	color: #667fff;
+	text-decoration: none;
+}
+
+.anketa__questions__item__specified {
+	color: #335f80;
+}
+
+.anketa__ps__item {
+	font-size: 70%;
+}
+
+.anketa__ps__specified {
+	color: #0c345c;
+	font-weight: bold;
+}
